@@ -1,0 +1,10 @@
+go 1.26.2
+
+use (
+	./cmd/api-gateway
+	./cmd/location-svc
+	./cmd/matching-svc
+	./cmd/notification-svc
+	./cmd/payment-svc
+	./cmd/trip-svc
+)

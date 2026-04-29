@@ -1,0 +1,7 @@
+# Create .gitignore in the root
+echo "node_modules/
+dist/
+.env
+*.exe
+*.test
+" > .gitignore
